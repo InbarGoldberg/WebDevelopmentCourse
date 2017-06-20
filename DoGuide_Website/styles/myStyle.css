@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'open-sans-bold';
+    src: url('../Fonts/OpenSansHebrew-Bold.eot');
+    src: url('../Fonts/OpenSansHebrew-Bold.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'open-sans-bold-italic';
+    src: url('../Fonts/OpenSansHebrew-BoldItalic.eot');
+    src: url('../Fonts/OpenSansHebrew-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-extra-bold';
+    src: url('../Fonts/OpenSansHebrew-ExtraBold.eot');
+    src: url('../Fonts/OpenSansHebrew-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-italic';
+    src: url('../Fonts/OpenSansHebrew-Italic.eot');
+    src: url('../Fonts/OpenSansHebrew-Italic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-light';
+    src: url('../Fonts/OpenSansHebrew-Light.eot');
+    src: url('../Fonts/OpenSansHebrew-Light.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-light-italic';
+    src: url('../Fonts/OpenSansHebrew-LightItalic.eot');
+    src: url('../Fonts/OpenSansHebrew-LightItalic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('../Fonts/OpenSansHebrew-Regular.eot');
+    src: url('../Fonts/OpenSansHebrew-Regular.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Regular.ttf') format('truetype');
+}
+
+body 
+{
+    direction:rtl;
+    background-image:url("../images/background.png");
+}
+
+#container{
+    margin:0 auto;
+    width:960px;
+    background-color:white;
+    height:150px;
+}
+
+/*עיצוב ה-header*/
+
+#logoarea{
+    height:108px;
+    background-color:#bae4d6;
+}
+
+#logo{
+    margin: 8px 368px 0 0;
+
+}
+
+/*עיצוב תפריט הניווט*/
+
+ul{
+list-style:none;
+}
+
+nav ul li
+{
+display:inline-block;
+float:right;
+}
+
+nav ul li a
+{
+display:block;
+background-color:white;
+color:#424564;
+width: 190px;
+height: 40px;
+text-decoration: none;
+text-align: center;
+border:0.5px solid #d9d9d9;
+line-height:40px;
+font-family:open-sans;
+}
+
+.parallax1 {
+    background-image: url("/images1/3453147356_3733dba9fc_b.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        margin:0 auto;
+    width:960px;
+    background-color:white;
+    height:150px;
+}
+.parallax2 {
+    background-image: url("/images1/country-1528152.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        margin:0 auto;
+    width:960px;
+    background-color:white;
+    height:150px;
+}
+
+.parallextext{
+    margin:0 auto;
+    width:960px;
+    background-color:white;
+    
+  }
+
+.parallextext p{
+    font-family:open-sans;
+    font-size:23px;
+    line-height: 40px;
+    
+}
+.parallextext h2 {
+     font-family:open-sans;
+    font-size:30px;
+    font-style: bold;
+        line-height: 40px;
+    padding-top: 10px;
+}
+.parallextext ul li{
+    list-style-image:url(../images/icon1.png);
+    list-style-position: inside; 
+      font-family:open-sans;
+    font-size:25px;
+    font-style: bold;
+        line-height: 40px; 
+padding-right: 50px;}
+.parallextext.parallextext hovar{
+  animation: animationFrames linear 0.8s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: animationFrames linear 0.8s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: animationFrames linear 0.8s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: animationFrames linear 0.8s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: animationFrames linear 0.8s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes animationFrames{
+  0% {
+    opacity:0;
+    transform:  translate(-300px,0px)  skewX(-30deg) ;
+  }
+  60% {
+    opacity:1;
+    transform:  translate(-40px,0px)  skewX(30deg) ;
+  }
+  80% {
+    opacity:1;
+    transform:  translate(0px,0px)  skewX(-15deg) ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  skewX(0deg) ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    opacity:0;
+    -moz-transform:  translate(-300px,0px)  skewX(-30deg) ;
+  }
+  60% {
+    opacity:1;
+    -moz-transform:  translate(-40px,0px)  skewX(30deg) ;
+  }
+  80% {
+    opacity:1;
+    -moz-transform:  translate(0px,0px)  skewX(-15deg) ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  translate(0px,0px)  skewX(0deg) ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -webkit-transform:  translate(-300px,0px)  skewX(-30deg) ;
+  }
+  60% {
+    opacity:1;
+    -webkit-transform:  translate(-40px,0px)  skewX(30deg) ;
+  }
+  80% {
+    opacity:1;
+    -webkit-transform:  translate(0px,0px)  skewX(-15deg) ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  translate(0px,0px)  skewX(0deg) ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -o-transform:  translate(-300px,0px)  skewX(-30deg) ;
+  }
+  60% {
+    opacity:1;
+    -o-transform:  translate(-40px,0px)  skewX(30deg) ;
+  }
+  80% {
+    opacity:1;
+    -o-transform:  translate(0px,0px)  skewX(-15deg) ;
+  }
+  100% {
+    opacity:1;
+    -o-transform:  translate(0px,0px)  skewX(0deg) ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -ms-transform:  translate(-300px,0px)  skewX(-30deg) ;
+  }
+  60% {
+    opacity:1;
+    -ms-transform:  translate(-40px,0px)  skewX(30deg) ;
+  }
+  80% {
+    opacity:1;
+    -ms-transform:  translate(0px,0px)  skewX(-15deg) ;
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  translate(0px,0px)  skewX(0deg) ;
+  }
+}
