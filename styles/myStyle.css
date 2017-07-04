@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'open-sans-bold';
+    src: url('../Fonts/OpenSansHebrew-Bold.eot');
+    src: url('../Fonts/OpenSansHebrew-Bold.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-bold-italic';
+    src: url('../Fonts/OpenSansHebrew-BoldItalic.eot');
+    src: url('../Fonts/OpenSansHebrew-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-extra-bold';
+    src: url('../Fonts/OpenSansHebrew-ExtraBold.eot');
+    src: url('../Fonts/OpenSansHebrew-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-italic';
+    src: url('../Fonts/OpenSansHebrew-Italic.eot');
+    src: url('../Fonts/OpenSansHebrew-Italic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-light';
+    src: url('../Fonts/OpenSansHebrew-Light.eot');
+    src: url('../Fonts/OpenSansHebrew-Light.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans-light-italic';
+    src: url('../Fonts/OpenSansHebrew-LightItalic.eot');
+    src: url('../Fonts/OpenSansHebrew-LightItalic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('../Fonts/OpenSansHebrew-Regular.eot');
+    src: url('../Fonts/OpenSansHebrew-Regular.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSansHebrew-Regular.ttf') format('truetype');
+}
+
+body {
+    direction: rtl;
+    background-image: url("../images/background.png");
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    background-color: white;
+    height: 150px;
+}
+
+
+/*עיצוב ה-header*/
+
+#logoarea {
+    height: 108px;
+    background-color: #bae4d6;
+}
+
+#logo {
+    margin: 8px 368px 0 0;
+}
+
+
+/*עיצוב תפריט הניווט*/
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    background-color: white;
+    color: #424564;
+    width: 190px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    border: 0.5px solid #d9d9d9;
+    line-height: 40px;
+    font-family: open-sans;
+}
+
+.parallax1 {
+    background-image: url("/images/3453147356_3733dba9fc_b.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 960px;
+    background-color: white;
+    height: 150px;
+}
+
+.parallax2 {
+    background-image: url("/images/animal-2184791_960_720.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 960px;
+    background-color: white;
+    height: 150px;
+}
+
+.parallextext {
+    margin: 0 auto;
+    width: 960px;
+    background-color: white;
+}
+
+.parallextext p {
+    font-family: open-sans;
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.parallextext h2 {
+    font-family: open-sans;
+    font-size: 30px;
+    font-style: bold;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+.parallextext ul li {
+    list-style-image: url(../images/point.png);
+    list-style-position: inside;
+    font-family: open-sans;
+    font-size: 25px;
+    font-style: bold;
+    line-height: 40px;
+    padding-right: 50px;
+}
