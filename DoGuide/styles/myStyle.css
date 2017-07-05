@@ -82,7 +82,7 @@ body {
     z-index: 90;
 }
 
-.activeAndHover {
+.activeAndHover{
     display: block;
     padding: 10px 0;
     text-decoration: none;
@@ -106,7 +106,7 @@ body {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    font-family: 'open-sans';
+    font-family:'open-sans';
     font-size: 10.5pt;
     background-color: white;
     color: black;
