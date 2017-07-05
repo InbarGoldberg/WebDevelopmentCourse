@@ -44,7 +44,7 @@ body {
 #skip {
     position: absolute;
     opacity: 0;
-    font-family: 'open-sans';
+    font-family:'open-sans';
 }
 
 #skip:focus,
@@ -82,35 +82,38 @@ body {
     z-index: 90;
 }
 
-.activeAndHover {
+.activeAndHover{
     display: block;
     padding: 10px 0;
-    text-decoration: none;
-    font-family: 'Open Sans';
-    font-size: 10.5pt;
     background-color: #424564;
     color: white;
 }
-
+.activeAndHover a{
+   text-decoration:none;
+    font-family:'open-sans';
+    font-size: 10.5pt;   
+}
 .activeAndHover:focus {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    font-family: 'Open Sans';
+    font-family:'open-sans';
     font-size: 10.5pt;
     background-color: #424564;
     color: white;
 }
 
-.unActiveAndHover {
+.unActiveAndHover{
     display: block;
     padding: 10px 0;
-    text-decoration: none;
-    font-family: 'Open Sans';
-    font-size: 10.5pt;
     background-color: white;
     color: black;
 }
+.unActiveAndHover a{
+    text-decoration:none;
+    font-family:'open-sans';
+    font-size: 10.5pt; 
+} 
 
 .fixed {
     position: fixed;
@@ -135,10 +138,21 @@ body {
 }
 
 .menu>ul li a:hover {
+text-decoration: none;
+    font-family:'open-sans';
+    font-size: 10.5pt;
     background-color: #424564;
     color: white;
 }
 
+.menu>ul li a {
+    display: block;
+    color: black;
+    padding: 10px 0;
+   text-decoration:none;
+    font-family:'open-sans';
+    font-size: 10.5pt;
+}
 .menu>ul li ul {
     display: none;
     position: absolute;
@@ -156,8 +170,8 @@ body {
     display: block;
     color: black;
     padding: 10px 0;
-    text-decoration: none;
-    font-family: 'Open Sans Hebrew';
+   text-decoration:none;
+    font-family:'open-sans';
     font-size: 10.5pt;
 }
 
@@ -169,7 +183,7 @@ body {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    font-family: 'Open Sans Hebrew';
+    font-family: 'OpenSansHebrew';
     font-size: 10.5pt;
     background-color: #424564;
     color: white;
@@ -179,7 +193,7 @@ body {
     display: none;
     padding: 10px 0;
     text-decoration: none;
-    font-family: 'Open Sans Hebrew';
+    font-family: 'Open Sans';
     font-size: 10.5pt;
     background-color: #424564;
     color: white;
