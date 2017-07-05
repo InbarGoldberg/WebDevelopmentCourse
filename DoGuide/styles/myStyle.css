@@ -262,7 +262,7 @@ body {
     display: block;
     color: black;
     text-decoration: none;
-    font-family: 'Open Sans Hebrew';
+    font-family:'open-sans';
     font-size: 13pt;
     text-align: center;
     line-height: 20pt;
@@ -330,12 +330,12 @@ body {
 #dog-h1 h1 {
     font-size: 20pt;
     margin-bottom: 10px;
-    font-family: open-sans-bold;
+    font-family: 'open-sans-bold';
 }
 
 #dog-h1 p {
     font-size: 14pt;
-    font-family: open-sans;
+    font-family: 'open-sans';
     line-height: 25px;
 }
 
