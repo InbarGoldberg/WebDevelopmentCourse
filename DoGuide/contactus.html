@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="he">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="utf-8" />
+    <title>DoGuide - צור קשר</title>
+    <meta name="description" content="DoGuide - המדריך למגדל גור נחייה - עמוד צור קשר" />
+    <meta name="keywords" content="DoGuide, Guide Dog,גידול גור, אימוץ גור נחייה ,כלב נחייה, גור נחייה, צור קשר" />
+    <meta name="author" content="Shir Brickman, Inbar Goldberg, Erez Dabbah" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!--Animate wow (CSS+Scripts)-->
+    <link rel="stylesheet" href="css/libs/animate.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <script src="dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/Site_JavaScript.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+
+<body onload="tab_nav()">
+
+    <!--לוגו + תפריט ניווט-->
+
+    <header>
+        <div id="logoarea" class="row small center wow fadeInDown top__element">
+            <a id="skip" href="#contactus">דלגו לתוכן האתר</a>
+            <a href="index.html"><img id="logo" src="images/logo.png" alt="DoGuide המדריך למגדל גור נחייה" /></a>
+        </div>
+        <nav class="menu" id="menuNav">
+            <ul class="row small center wow fadeInDown top__element">
+                <li> <a href="index.html#logoarea" class="unActiveAndHover"> דף הבית </a> </li>
+                <li id="doifitLi"> <a id="doifitA" href="index.html#do-i-fit-title" class="unActiveAndHover"> האם אני מתאים? </a> </li>
+                <li id="beforeAdoptingLi">
+                    <a id="beforeAdoptingA" href="index.html#before-adopting-title" class="unActiveAndHover"> לפני האימוץ </a>
+
+                    <ul>
+                        <li><a href="index.html#tips">טיפים</a></li>
+                        <li><a href="index.html#preparations">הכנות</a></li>
+                        <li><a href="index.html#where-is-the-dog">איפה הכלב?</a></li>
+                    </ul>
+
+                </li>
+                <li id="duringLi">
+                    <a id="duringA" href="index.html#during-title" class="unActiveAndHover"> במהלך האימוץ </a>
+
+                    <ul>
+                        <li><a href="index.html#what-now">אימצתי, מה עכשיו?</a></li>
+                        <li><a href="index.html#training">אילוף</a></li>
+                        <li><a href="index.html#places-to-go">מקומות שחשוב לבקר</a></li>
+                        <li><a href="index.html#inspiring-stories-during">סיפורי השראה</a></li>
+                    </ul>
+
+                </li>
+                <li id="afterLi">
+                    <a id="afterA" href="index.html#after-title" class="unActiveAndHover"> אחרי האימוץ </a>
+
+                    <ul>
+                        <li><a href="index.html#how-to-deal">איך להתמודד?</a></li>
+                        <li><a href="index.html#inspiring-stories-after">סיפורי השראה</a></li>
+
+                    </ul>
+
+                </li>
+                <li id="contactLi"> <a id="contactA" href="index.html#contact-title" class="unActiveAndHover"> דרכי התקשרות </a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--תחילת קונטיינר-->
+
+    <div id="container">
+        <section id="contactus" class="parallextext">
+
+            <h1 class="row small center wow fadeInDown top__element">
+                פרטי יצירת קשר
+            </h1>
+            <ul class="row small center wow fadeInDown top__element">
+                <li>
+                    ענבר גולדברג- inbargold2@gmail.com
+                </li>
+                <li>
+                    שיר בריקמן- shirbrickman@gmail.com
+                </li>
+                <li>
+                    ארז דבח- erezdab@gmail.com
+                </li>
+            </ul>
+            <h2 class="row small center wow fadeInDown top__element">כתבו לנו</h2>
+
+            <form class="row small center wow fadeInDown top__element">
+                <input type="hidden" id="myEmail" name="name" value="shirbrickman@gmail.com">
+
+                <label for="Name">
+                    שם מלא:
+                    <input type="text" id="Name" placeholder="שם מלא" />
+                </label>
+
+                <label for="Email">
+                    דוא"ל:
+                    <input type="text" id="Email" placeholder="דואר אלקטרוני" />
+                </label>
+
+                <label for="Phone">
+                    טלפון:
+                    <input type="text" id="Email" placeholder="מספר טלפון" />
+                </label>
+
+                <label for="myMS">
+                    תוכן ההודעה:
+                    <textarea id="myMS"></textarea>
+                </label>
+
+
+                <input type="submit" id="Send" value="שלח הודעה">
+
+                <div id="feedback"></div>
+
+            </form>
+
+        </section>
+    </div>
+    <footer id="footerCU">
+        <nav id="footer-nav">
+            <ul>
+                <li><a href="about.html">אודות</a></li>
+
+                <li><a href="contactus.html">צור קשר</a></li>
+
+                <li><a href="sitemap.html">מפת אתר</a></li>
+            </ul>
+        </nav>
+        <p id="footer-p"> &#169 כל הזכויות שמורות לצוות אתר DoGuide</p>
+    </footer>
+
+</body>
+
+</html>

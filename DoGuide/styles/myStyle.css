@@ -16,6 +16,7 @@
     src: url('../fonts/OpenSansHebrew-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSansHebrew-Regular.ttf') format('truetype');
 }
 
+
 /*התחלת עיצוב האתר*/
 
 body {
@@ -23,6 +24,7 @@ body {
     direction: rtl;
     background-image: url("../images/background.png");
 }
+
 
 /*עיצוב הקונטיינר*/
 
@@ -36,18 +38,20 @@ body {
     box-shadow: 0 6px 10px 0 #D6D6D6;
 }
 
+
 /*עיצוב ה-header*/
 
-#skip{
+#skip {
     position: absolute;
-    opacity:0;
-    font-family:'open-sans';
+    opacity: 0;
+    font-family: 'open-sans';
 }
 
-#skip:focus, #skip:active{
-    opacity:1;
-    color:white;
-    font-size:13pt;
+#skip:focus,
+#skip:active {
+    opacity: 1;
+    color: white;
+    font-size: 13pt;
 }
 
 #logoarea {
@@ -65,8 +69,8 @@ body {
     margin: 0 auto;
 }
 
-/*עיצוב תפריט הניווט*/ 
 
+/*עיצוב תפריט הניווט*/
 
 .menu {
     width: 100%;
@@ -82,7 +86,7 @@ body {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    font-family: 'Open Sans Hebrew';
+    font-family: 'Open Sans';
     font-size: 10.5pt;
     background-color: #424564;
     color: white;
@@ -92,7 +96,7 @@ body {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    font-family: 'Open Sans Hebrew';
+    font-family: 'Open Sans';
     font-size: 10.5pt;
     background-color: #424564;
     color: white;
@@ -102,7 +106,7 @@ body {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    font-family: 'Open Sans Hebrew';
+    font-family: 'Open Sans';
     font-size: 10.5pt;
     background-color: white;
     color: black;
@@ -115,59 +119,53 @@ body {
     transition: opacity 0.5s;
 }
 
-.menu > ul {
+.menu>ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-    .menu > ul li {
-        list-style: none;
-        float: right;
-        text-align: center;
-        width: 16.6667%;
-        width: calc(100% / 6);
-        box-sizing: border-box;
-    }
+.menu>ul li {
+    list-style: none;
+    float: right;
+    text-align: center;
+    width: 16.6667%;
+    width: calc(100% / 6);
+    box-sizing: border-box;
+}
 
+.menu>ul li a:hover {
+    background-color: #424564;
+    color: white;
+}
 
+.menu>ul li ul {
+    display: none;
+    position: absolute;
+    background-color: green;
+    width: 16.66666%;
+}
 
+.menu>ul li ul li {
+    display: block;
+    background-color: white;
+    width: 100%;
+}
 
-        .menu > ul li a:hover {
-            background-color: #424564;
-            color: white;
-        }
-
-
-        .menu > ul li ul {
-            display: none;
-            position: absolute;
-            background-color: green;
-            width: 16.66666%;
-        }
-
-            .menu > ul li ul li {
-                display: block;
-                background-color: white;
-                width: 100%;
-            }
-
-
-                .menu > ul li ul li a {
-                    display: block;
-                    color: black;
-                    padding: 10px 0;
-                    text-decoration: none;
-                    font-family: 'Open Sans Hebrew';
-                    font-size: 10.5pt;
-                }
+.menu>ul li ul li a {
+    display: block;
+    color: black;
+    padding: 10px 0;
+    text-decoration: none;
+    font-family: 'Open Sans Hebrew';
+    font-size: 10.5pt;
+}
 
 .menu ul li:hover ul {
     display: block;
 }
 
-
-.focusClass{
+.focusClass {
     display: block;
     padding: 10px 0;
     text-decoration: none;
@@ -177,7 +175,7 @@ body {
     color: white;
 }
 
-.blurClass{
+.blurClass {
     display: none;
     padding: 10px 0;
     text-decoration: none;
@@ -188,7 +186,6 @@ body {
 }
 
 */
-
 /*עיצוב דף הבית*/
 
 #dog1 {
@@ -261,7 +258,7 @@ body {
     width: 960px;
 }
 
-#menu-homepage > ul > li > a {
+#menu-homepage>ul>li>a {
     display: block;
     color: black;
     text-decoration: none;
@@ -274,48 +271,38 @@ body {
 #arrow1 {
     height: 154px;
     width: 97px;
-    
     margin-top: -290px;
     margin-right: 40px;
-    
     right: 170px;
-
 }
 
 #arrow2 {
     height: 179px;
     width: 143px;
-    
     margin-top: -460px;
     margin-right: -30px;
-    
     right: 600px;
-
 }
 
 #arrow3 {
     height: 182px;
     width: 160px;
     margin-top: -350px;
-     right: 610px;
-
+    right: 610px;
 }
 
 #arrow4 {
     height: 141px;
     width: 160px;
-    
     margin-top: -230px;
     margin-right: -30px;
-    
     right: 660px;
-
 }
 
 .arrow {
     display: inline-block;
     position: absolute;
-        transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
@@ -326,7 +313,9 @@ body {
     width: 960px;
 }
 
+
 /*עיצוב דף הבית*/
+
 #dog-h1 {
     text-align: center;
     width: 200px;
@@ -338,19 +327,19 @@ body {
     right: 45px;
 }
 
-    #dog-h1 h1 {
-        font-size: 20pt;
-        margin-bottom: 10px;
-        font-family: open-sans-bold;
-    }
+#dog-h1 h1 {
+    font-size: 20pt;
+    margin-bottom: 10px;
+    font-family: open-sans-bold;
+}
 
-    #dog-h1 p {
-        font-size: 14pt;
-        font-family: open-sans;
-        line-height: 25px;
-    }
+#dog-h1 p {
+    font-size: 14pt;
+    font-family: open-sans;
+    line-height: 25px;
+}
 
-    .dog-icons-hover {
+.dog-icons-hover {
     opacity: 0.2;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
@@ -358,7 +347,9 @@ body {
     -o-transition: opacity .5s ease-out;
 }
 
+
 /*עיצוב והתאמת גדלי sections */
+
 #doifitDiv {
     width: 960px;
     height: 1px;
@@ -388,6 +379,7 @@ body {
     height: 1px;
     visibility: hidden;
 }
+
 
 /*עיצוב parallax*/
 
@@ -433,37 +425,38 @@ body {
     text-shadow: 3px 3px 2px #838383;
 }
 
+
 /*עיצוב תכני עמוד*/
 
 .parallextext {
     background-color: white;
 }
 
+.parallextext p {
+    font-family: 'open-sans';
+    font-size: 13pt;
+    line-height: 30px;
+    margin-top: 10px;
+}
 
-    .parallextext p {
-        font-family: 'open-sans';
-        font-size: 13pt;
-        line-height: 30px;
-        margin-top: 10px;
-    }
+.parallextext h3 {
+    font-size: 30pt;
+    font-family: 'open-sans-bold';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #424564;
+}
 
-    .parallextext h3 {
-        font-size: 30pt;
-        font-family: 'open-sans-bold';
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #424564;
-    }
+.parallextext ul li {
+    list-style-image: url(../images/paw.png);
+    list-style-position: inside;
+    font-family: 'open-sans';
+    font-size: 13pt;
+    font-style: bold;
+    line-height: 40px;
+    padding-right: 50px;
+}
 
-    .parallextext ul li {
-        list-style-image: url(../images/paw.png);
-        list-style-position: inside;
-        font-family: 'open-sans';
-        font-size: 13pt;
-        font-style: bold;
-        line-height: 40px;
-        padding-right: 50px;
-    }
 
 /*עיצוב מעברי תכנים*/
 
@@ -503,7 +496,7 @@ body {
 
 #tips {
     height: 1030px;
-    background-color: rgba(201,201,201,0.1);
+    background-color: rgba(201, 201, 201, 0.1);
     -webkit-box-shadow: 0 6px 10px 0 #D6D6D6;
     box-shadow: 0 6px 10px 0 #D6D6D6;
 }
@@ -517,7 +510,7 @@ body {
 
 #where-is-the-dog {
     height: 700px;
-    background-color: rgba(201,201,201,0.2);
+    background-color: rgba(201, 201, 201, 0.2);
     box-shadow: 0 6px 10px 0 #D6D6D6;
 }
 
@@ -582,6 +575,7 @@ body {
     height: 800px;
 }
 
+
 /*עיצוב תוכן וטקסטים*/
 
 .paw {
@@ -612,7 +606,10 @@ body {
     margin-bottom: 5px;
 }
 
-.parallextext p, h3, h4, h5 {
+.parallextext p,
+h3,
+h4,
+h5 {
     margin-right: 25px;
     margin-left: 25px;
 }
@@ -630,22 +627,21 @@ body {
     -o-transition: opacity .5s ease-out;
 }
 
-    .parallextext img:hover {
-        opacity: 0.8;
-        transition: opacity .5s ease-out;
-        -moz-transition: opacity .5s ease-out;
-        -webkit-transition: opacity .5s ease-out;
-        -o-transition: opacity .5s ease-out;
-    }
+.parallextext img:hover {
+    opacity: 0.8;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
 
+.parallextext a:hover {
+    color: black;
+}
 
-    .parallextext a:hover{
-        color:black;
-    }
-
-        .parallextext a:focus{
-        color:black;
-    }
+.parallextext a:focus {
+    color: black;
+}
 
 .logos {
     height: 100px;
@@ -661,6 +657,7 @@ body {
     margin-bottom: 8px;
 }
 
+
 /*עיצוב בוחן בהאם אני מתאים?*/
 
 #test {
@@ -673,26 +670,28 @@ body {
     margin-bottom: 20px;
 }
 
-    #test li {
-        font-size: 12pt;
-        font-family: 'open-sans';
-    }
+#test li {
+    font-size: 12pt;
+    font-family: 'open-sans';
+}
 
-    #test h4 {
-        font-family: 'open-sans-bold';
-        font-size: 18pt;
-        color: #424564;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: 60px;
-    }
+#test h4 {
+    font-family: 'open-sans-bold';
+    font-size: 18pt;
+    color: #424564;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
 
-    #test ul {
-        margin-top: 25px;
-    }
+#test ul {
+    margin-top: 25px;
+}
+
 
 /*עיצוב סרטונים*/
+
 iframe {
     margin-right: 55px;
     transition: opacity .5s ease-out;
@@ -701,16 +700,17 @@ iframe {
     -o-transition: opacity .5s ease-out;
 }
 
-    iframe:hover {
-        opacity: 0.8;
-        transition: opacity .5s ease-out;
-        -moz-transition: opacity .5s ease-out;
-        -webkit-transition: opacity .5s ease-out;
-        -o-transition: opacity .5s ease-out;
-    }
+iframe:hover {
+    opacity: 0.8;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
 
 
 /*עמוד אודות*/
+
 #about h1 {
     font-size: 30pt;
     font-family: 'open-sans-bold';
@@ -723,30 +723,29 @@ iframe {
 
 #about {
     height: 1600px;
-        -webkit-box-shadow: 0 6px 10px 0 #D6D6D6;
+    -webkit-box-shadow: 0 6px 10px 0 #D6D6D6;
     box-shadow: 0 6px 10px 0 #D6D6D6;
-    
 }
 
-#hit-logo{
-    margin-top:30px;
+#hit-logo {
+    margin-top: 30px;
 }
 
-#about a:hover{
-    color:black;
+#about a:hover {
+    color: black;
 }
 
-#about a:focus{
-    color:black;
+#about a:focus {
+    color: black;
 }
+
 
 /*עמוד מפת אתר*/
 
 #sitemap {
-    height:950px;
-        -webkit-box-shadow: 0 6px 10px 0 #D6D6D6;
+    height: 950px;
+    -webkit-box-shadow: 0 6px 10px 0 #D6D6D6;
     box-shadow: 0 6px 10px 0 #D6D6D6;
-  
 }
 
 #sitemap h1 {
@@ -759,23 +758,24 @@ iframe {
     margin-left: 25px;
 }
 
-#sitemap a{
-    font-size:13pt;
+#sitemap a {
+    font-size: 13pt;
 }
 
-#sitemap a:hover{
-    color:black;
+#sitemap a:hover {
+    color: black;
 }
 
-#sitemap a:focus{
-    color:black;
+#sitemap a:focus {
+    color: black;
 }
+
 
 /*עמוד צור קשר*/
 
-#contactus{
-    height:800px;
-        -webkit-box-shadow: 0 6px 10px 0 #D6D6D6;
+#contactus {
+    height: 800px;
+    -webkit-box-shadow: 0 6px 10px 0 #D6D6D6;
     box-shadow: 0 6px 10px 0 #D6D6D6;
 }
 
@@ -806,60 +806,54 @@ iframe {
     margin-left: 25px;
 }
 
-    #contactus form label {
-        font-family: 'open-sans';
-        font-size: 13pt;
-        
-    }
+#contactus form label {
+    font-family: 'open-sans';
+    font-size: 13pt;
+}
 
-#contactus input, textarea {
+#contactus input,
+textarea {
     font-family: 'open-sans';
     font-size: 13pt;
     margin-left: 20px;
     margin-top: 8px;
-    
 }
 
-#contactus label{
+#contactus label {
     display: inline-block;
     float: right;
     clear: right;
     width: 250px;
     text-align: right;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
+
 #contactus input {
-  display: inline-block;
-  float: right;
-  margin-bottom:10px;
+    display: inline-block;
+    float: right;
+    margin-bottom: 10px;
 }
 
-#Send{
-    width:120px;
-    height:35px;
-    color:white;
-    background-color:#424564;
-
+#Send {
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: #424564;
 }
 
-#Send:hover{
-
-    color:#424564;
-    background-color:white;
-
+#Send:hover {
+    color: #424564;
+    background-color: white;
 }
 
-#Send:focus{
-
-    color:#424564;
-    background-color:white;
-
+#Send:focus {
+    color: #424564;
+    background-color: white;
 }
 
-#Send:active{
-   color:white;
-    background-color:#424564;
-
+#Send:active {
+    color: white;
+    background-color: #424564;
 }
 
 
@@ -884,11 +878,9 @@ footer {
     margin-top: 800px;
 }
 
-#footer-sitemap{
-    margin-top:120px;
+#footer-sitemap {
+    margin-top: 120px;
 }
-
-
 
 #footer-nav {
     padding-top: 100px;
@@ -898,45 +890,44 @@ footer {
     width: 700px;
 }
 
-    #footer-nav ul p {
-        color: white;
-        display: inline-block;
-    }
+#footer-nav ul p {
+    color: white;
+    display: inline-block;
+}
 
-    #footer-nav ul li {
-        display: inline-block;
-        float: right;
-        width: 70px;
-        border-left: 1px solid white;
-        margin-right: 35px;
-    }
+#footer-nav ul li {
+    display: inline-block;
+    float: right;
+    width: 70px;
+    border-left: 1px solid white;
+    margin-right: 35px;
+}
 
-        #footer-nav ul li:last-child {
-            border-left: none;
-        }
+#footer-nav ul li:last-child {
+    border-left: none;
+}
 
-        #footer-nav ul li a {
-            font-family: 'open-sans';
-            font-size: 10.5pt;
-            color: white;
-            text-decoration: none;
-        }
+#footer-nav ul li a {
+    font-family: 'open-sans';
+    font-size: 10.5pt;
+    color: white;
+    text-decoration: none;
+}
 
+#footer-nav ul li a:hover {
+    color: #424564;
+}
 
-            #footer-nav ul li a:hover {
-                color: #424564;
-            }
+#footer-nav ul li a:focus {
+    color: #424564;
+}
 
-              #footer-nav ul li a:focus{
-                color: #424564;
-            }
-   #footer-p {
-       color: white;
-        display: inline-block;
-        font-family: 'open-sans';
-        font-size: 10pt;
-       margin: o auto;
-       margin-top: 25px;
-       margin-right: -260px;
-       
-    }
+#footer-p {
+    color: white;
+    display: inline-block;
+    font-family: 'open-sans';
+    font-size: 10pt;
+    margin: o auto;
+    margin-top: 25px;
+    margin-right: -260px;
+}
